@@ -1,8 +1,8 @@
 {
-  "name": "Test IME",
-  "version": "1.0",
+  "name": "cjs IME",
+  "version": "0.1",
   "manifest_version": 2,
-  "description": "A simple IME that converts all keystrokes to upper case.",
+  "description": "XXX",
   "background":  {
     "scripts": ["main.js"]
   },
@@ -11,10 +11,10 @@
   ],
   "input_components": [
     {
-      "name": "Test IME",
+      "name": "cjs IME",
       "type": "ime",
-      "id": "test",
-      "description": "Test IME",  // A user visible description
+      "id": "cjs",
+      "description": "cjs IME",  // A user visible description
       "language": "en-US",  // The primary language this IME is used for
       "layouts": ["us::eng"]  // The supported keyboard layouts for this IME
     }
